@@ -1,0 +1,74 @@
+
+.topnav {
+  text-align: left; 
+  position: absolute;
+  bottom: 5;
+}
+.head {
+  background: #0F0F0F;
+  color: #C3C3C3;
+  text-align: left;
+  font-family: "Rockwell", serif;
+  font-size: 26px;
+}
+.foot {
+  background: #0F0F0F;
+  color: #C3C3C3;
+  text-align: center;
+  font-family: "Rockwell", serif;
+  
+}
+.topimage {
+  background-image: url("images/pexels-mohamed-khaled.jpg");
+  height:250px;
+  width: "device-width";
+  background-size: cover;
+  position: relative;
+}
+.btn {
+  display: inline-block;
+  background-color: #393939;
+  color: #030202;
+  font-size: 15px;
+  margin: 5px;
+  padding: 7px 10px;
+  border: 1px solid #767676;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.copywrt {
+   display: inline-block;
+  background: #393939;
+  color: #030202;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 3px;
+  padding: 7px 9px;
+  border: 1px solid #767676;
+  border-radius: 13px;
+}
+.wrapper{
+  width: auto;
+  margin: auto;
+}
+.main {
+  background: #767676;
+  text-align: center;
+  font-family: "Rockwell", serif;
+}
+img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #393939;
+  border-radius: 75%;
+}
+.solid {
+  border-top: 4px;
+  border-color: #030202;
+}
+.email {
+  color: #030202;
+  on-push: #393939;
+}
