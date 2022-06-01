@@ -20,7 +20,7 @@
 }
 .topimage {
   background-image: url("images/pexels-mohamed-khaled.jpg");
-  height:auto;
+  height:100px;
   width: "device-width";
   background-size: cover;
   position: relative;
