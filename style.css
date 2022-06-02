@@ -77,6 +77,9 @@ img {
   color: #030202;
   on-push: #393939;
 }
-ul, ol {
+ul {
     list-style: circle inside none
+}
+ol {
+  list-style: upper-roman inside none
 }
