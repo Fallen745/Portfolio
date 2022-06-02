@@ -77,3 +77,6 @@ img {
   color: #030202;
   on-push: #393939;
 }
+ul, ol {
+    list-style: circle inside none
+}
