@@ -46,14 +46,11 @@ a:hover {
 }
 .copywrt {
    display: inline-block;
-  background: #393939;
   color: white;
   font-size: 12px;
   font-weight: bold;
   margin: 3px;
   padding: 7px 9px;
-  border: 1px solid #767676;
-  border-radius: 13px;
 }
 .wrapper{
   width: auto;
