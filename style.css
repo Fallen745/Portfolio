@@ -25,14 +25,15 @@
   background-size: cover;
   position: relative;
 }
-a: link {
+a:link {
   color: grey;
 }
-a: hover{
-  color: darkred;
-}
-a: visited {
+
+a:visited {
   color: silver;
+}
+a:hover {
+  color: darkred;
 }
 .btn {
   display: inline-block;
