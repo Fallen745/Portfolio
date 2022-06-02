@@ -1,0 +1,58 @@
+<!DOCTYPE html><!-- set up document type and base language -->
+<html lang="en">
+
+<head><!-- Initialize the header, setting the charset, metadata, title, and referencing the css sheet-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Kyle Weishaar | Software Engineer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <div class="head topimage"><!-- Top title, and subtitle set to multiple classes -->
+    <br>
+    <h1>Kyle Weishaar</h1>
+    <h2>Software Engineer</h2><!-- needed slight adjustment to space between h1 and h3 -->
+    <nav class ="topnav"><!-- set up intial navigation bar -->
+      <a href="index.html" class="btn">Home</a>
+      <a href="contactinfo.html" class="btn">Contact</a>
+      <a href="portfolio.html" class="btn">Portfolio</a>
+    </nav><!-- all links will be classified as btn -->
+  </div>
+<!-- end the header portion of the page-->
+
+<main class="main wrapper"><!-- add class here to have background meet both header and footer -->
+    <header>
+      <div>
+        <!-- link to headshot photo, adjust size of photo to fit better -->
+        <br>
+        <img src="images/headshot.jpg" alt="Headshot of Kyle">
+      </div>
+    </header>
+    <article>
+    <section>
+      <h2>Contact Info</h3>
+    </section>
+    <section>
+    <p>The best way to contact me regarding any work you would like done would be my email, <a href=mailto:weishaar.kyle@gmail.com class="btn">weishaar.kyle@gmail.com</a>.
+    Please include your name, your company name if applicable, a short summary of the work you are requesting, and your preffered form of communication. The summary doesn't need
+    to be complex or detailed. We can discuss the details later!</p>
+    <p>The next best way would be to contact me through my <a href="https://www.linkedin.com/in/kyle-weishaar-558737240/">LinkedIn</a> page. While you are there, check out my
+    resume to get a view of my history!</p>
+  </main> <!-- end second section, article and main body of the page-->
+  <footer class="foot wrapper"><!-- start footer, to include list of other contact methods and secondary navigation bar-->
+    <div>
+    <nav class ='bottomnav'><!-- set up intial navigation bar -->
+      <a href="index.html" class="btn">Home</a>
+      <a href="contactinfo.html" class="btn">Contact</a>
+      <a href="portfolio.html" class="btn">Portfolio</a>
+      <a href="https://www.linkedin.com/in/kyle-weishaar-558737240/" class=btn>LinkedIn</a>
+      <a href="http://www.github.com/Fallen745" class="btn">GitHub</a>
+      <a href=mailto:weishaar.kyle@gmail.com class="btn"> Send Email</a>
+    </nav>
+    </div><div>
+    <p class="copywrt">Images used by courtesy of their respective owners.</p></div>
+    
+  </footer>
+  <!--insert script source for any potentially included javascript later-->
+  <script src="script.js"></script>
+</body><!-- end main body-->
+
+</html><!-- end html-->
