@@ -19,6 +19,13 @@
 <!-- end the header portion of the page-->
 
 <main class="main wrapper"><!-- add class here to have background meet both header and footer -->
+<header>
+      <div>
+        <!-- link to headshot photo, adjust size of photo to fit better -->
+        <br>
+        <img src="images/headshot.jpg" alt="Headshot of Kyle">
+      </div>
+</header>
     <h2>Portfolio</h2>
     <br>
     <p>The best place to view my current work would be my <a href="http://www.github.com/Fallen745">GitHub</a> page. I keep it updated with all
