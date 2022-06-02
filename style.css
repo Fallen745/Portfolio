@@ -2,7 +2,7 @@
 .topnav {
   text-align: left; 
   position: absolute;
-  bottom: 5;
+  bottom: 10px;
 }
 .head {
   background: #0F0F0F;
@@ -21,7 +21,7 @@
 .topimage {
   background-image: url("images/pexels-mohamed-khaled.jpg");
   height:300px;
-  width: "device-width";
+  width: device-width;
   background-size: cover;
   position: relative;
 }
@@ -80,7 +80,6 @@ img {
 }
 .email {
   color: #030202;
-  on-push: #393939;
 }
 ul {
     list-style: circle inside none
