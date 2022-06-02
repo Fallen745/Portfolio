@@ -25,6 +25,11 @@
   background-size: cover;
   position: relative;
 }
+:any-link:hover {
+  color: red;
+}
+any-link:visited {
+  color:grey;
 .btn {
   display: inline-block;
   background-color: #393939;
